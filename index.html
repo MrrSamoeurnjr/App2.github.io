@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projecc21.css">
+    <title>Document</title>
+</head>
+<body>
+    <button id="open_cart_btn">
+        <img src="https://logowik.com/content/uploads/images/shopping-cart5929.jpg" alt="" style="width: 30px;">
+    </button>
+    <div class="items">
+        <!-- <div class="item">
+            <img src="https://imageio.forbes.com/specials-images/imageserve/63fa34abd4092acbb40f01bf/Apple--iPhone-15--iPhone-15-Pro--iPhone-15-Pro-Max--iPhone-15-colors--iPhone-15-Pro/0x0.jpg?crop=891,1055,x245,y0,safe&height=841&width=711&fit=bounds" alt="">
+            <button>Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="https://imageio.forbes.com/specials-images/imageserve/63fa34abd4092acbb40f01bf/Apple--iPhone-15--iPhone-15-Pro--iPhone-15-Pro-Max--iPhone-15-colors--iPhone-15-Pro/0x0.jpg?crop=891,1055,x245,y0,safe&height=841&width=711&fit=bounds" alt="">
+            <button>Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="https://imageio.forbes.com/specials-images/imageserve/63fa34abd4092acbb40f01bf/Apple--iPhone-15--iPhone-15-Pro--iPhone-15-Pro-Max--iPhone-15-colors--iPhone-15-Pro/0x0.jpg?crop=891,1055,x245,y0,safe&height=841&width=711&fit=bounds" alt="">
+            <button>Add to Cart</button>
+        </div>
+        <div class="item">
+            <img src="https://imageio.forbes.com/specials-images/imageserve/63fa34abd4092acbb40f01bf/Apple--iPhone-15--iPhone-15-Pro--iPhone-15-Pro-Max--iPhone-15-colors--iPhone-15-Pro/0x0.jpg?crop=891,1055,x245,y0,safe&height=841&width=711&fit=bounds" alt="">
+            <button>Add to Cart</button>
+        </div> -->
+    </div>
+    <div class="backdrop"></div>
+    <div class="sideCart">
+        <div class="cart-content">
+            <div class="card_header">
+                <img src="https://cdn-icons-png.flaticon.com/512/275/275790.png" style="width: 30px;" alt="">
+                <div class="header_title">
+                    <h2>Your Cart</h2>
+                    <span id="items_num">0</span>
+                </div>
+                <span id="close_btn" class="close_btn">&times;</span>
+            </div>
+            <div class="cart_items">
+                <!-- <div class="cart_item">
+                    <div class="remove_item">
+                        <span>&times;</span>
+                    </div>
+                    <div class="item_img">
+                        <img src="https://imageio.forbes.com/specials-images/imageserve/63fa34abd4092acbb40f01bf/Apple--iPhone-15--iPhone-15-Pro--iPhone-15-Pro-Max--iPhone-15-colors--iPhone-15-Pro/0x0.jpg?crop=891,1055,x245,y0,safe&height=841&width=711&fit=bounds" alt="">
+                    </div>
+                    <div class="item_details">
+                        <p>Iphone 14 Pro Max</p>
+                        <strong>$1099</strong>
+                        <div class="qty">
+                            <span>-</span>
+                            <strong>1</strong>
+                            <span>+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart_item">
+                    <div class="remove_item">
+                        <span>&times;</span>
+                    </div>
+                    <div class="item_img">
+                        <img src="https://imageio.forbes.com/specials-images/imageserve/63fa34abd4092acbb40f01bf/Apple--iPhone-15--iPhone-15-Pro--iPhone-15-Pro-Max--iPhone-15-colors--iPhone-15-Pro/0x0.jpg?crop=891,1055,x245,y0,safe&height=841&width=711&fit=bounds" alt="">
+                    </div>
+                    <div class="item_details">
+                        <p>Iphone 14 Pro Max</p>
+                        <strong>$1099</strong>
+                        <div class="qty">
+                            <span>-</span>
+                            <strong>1</strong>
+                            <span>+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart_item">
+                    <div class="remove_item">
+                        <span>&times;</span>
+                    </div>
+                    <div class="item_img">
+                        <img src="https://imageio.forbes.com/specials-images/imageserve/63fa34abd4092acbb40f01bf/Apple--iPhone-15--iPhone-15-Pro--iPhone-15-Pro-Max--iPhone-15-colors--iPhone-15-Pro/0x0.jpg?crop=891,1055,x245,y0,safe&height=841&width=711&fit=bounds" alt="">
+                    </div>
+                    <div class="item_details">
+                        <p>Iphone 14 Pro Max</p>
+                        <strong>$1099</strong>
+                        <div class="qty">
+                            <span>-</span>
+                            <strong>1</strong>
+                            <span>+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart_item">
+                    <div class="remove_item">
+                        <span>&times;</span>
+                    </div>
+                    <div class="item_img">
+                        <img src="https://imageio.forbes.com/specials-images/imageserve/63fa34abd4092acbb40f01bf/Apple--iPhone-15--iPhone-15-Pro--iPhone-15-Pro-Max--iPhone-15-colors--iPhone-15-Pro/0x0.jpg?crop=891,1055,x245,y0,safe&height=841&width=711&fit=bounds" alt="">
+                    </div>
+                    <div class="item_details">
+                        <p>Iphone 14 Pro Max</p>
+                        <strong>$1099</strong>
+                        <div class="qty">
+                            <span>-</span>
+                            <strong>1</strong>
+                            <span>+</span>
+                        </div>
+                    </div>
+                </div>
+                 -->
+            </div>
+            <div class="cart_actions">
+                <div class="subtotal">
+                    <p>SUBTOTAL</p>
+                    <p>$<span id="subtotal_price">200</span></p>
+                </div>
+                <button>View Cart</button>
+                <button>Checkout</button>
+            </div>
+        </div>
+    </div>
+    <script src="21.js"></script>
+</body>
+</html>
